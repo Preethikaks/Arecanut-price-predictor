@@ -83,4 +83,34 @@ These are the default credentials to access the application:
 | preethika  | mca2025    |
 
 > Note: Login is required to access the app features like data upload, visualization, and prediction.
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📁 Upload Data
+![Upload Tab](screenshots/upload.png)
+
+### 📈 Visualize Prices
+![Visualization](screenshots/visualize.png)
+
+### 📉 Prediction Result
+![Prediction](screenshots/predict.png)
+
+---
+
+## 📈 Future Enhancements
+
+- Add weather data or market location to improve accuracy
+- Support for multiple crops
+- Admin login and historical export features
+- Deploy online using Streamlit Cloud or Render
+
+---
+
+## 👩‍💻 Developed By
+
+**Preethika KS**  
+MCA Student, New Horizon College of Engineering  
+Passionate about Machine Learning & Real-world Applications 🚀
 

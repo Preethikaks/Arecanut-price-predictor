@@ -83,19 +83,6 @@ These are the default credentials to access the application:
 | preethika  | mca2025    |
 
 > Note: Login is required to access the app features like data upload, visualization, and prediction.
-## 🖼️ Screenshots
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-
-### 📁 Upload Data
-![Upload Tab](screenshots/upload.png)
-
-### 📈 Visualize Prices
-![Visualization](screenshots/visualize.png)
-
-### 📉 Prediction Result
-![Prediction](screenshots/predict.png)
 
 ---
 

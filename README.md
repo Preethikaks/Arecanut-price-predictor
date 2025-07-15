@@ -1,17 +1,17 @@
 # Arecanut-price-predictor
 A machine learning web app built with Streamlit to predict future Arecanut prices using Random Forest, featuring data upload, visualization, SQLite integration, and secure login system.
-## ✅ Features
+##  Features
 
-- 📁 Upload arecanut price CSV files
-- 📂 Store and manage data in an SQLite database
-- 📈 Visualize price trends over time and by month
-- 🤖 Predict future prices using Random Forest regression
-- 🗅️ Simple and clean user interface built with Streamlit
-- 🔐 Login system with username and password
+-  Upload arecanut price CSV files
+-  Store and manage data in an SQLite database
+-  Visualize price trends over time and by month
+-  Predict future prices using Random Forest regression
+-  Simple and clean user interface built with Streamlit
+-  Login system with username and password
 
 ---
 
-## 🔠 Technologies Used
+##  Technologies Used
 
 | Component         | Technology        |
 |------------------|-------------------|
@@ -23,7 +23,7 @@ A machine learning web app built with Streamlit to predict future Arecanut price
 
 ---
 
-## 🗃️ Dataset Format
+##  Dataset Format
 
 Ensure your CSV file contains the following columns:
 
@@ -34,22 +34,22 @@ Ensure your CSV file contains the following columns:
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
-### 🔧 Step 1: Clone or Download the Project
+###  Step 1: Clone or Download the Project
 
 ```bash
 git clone https://github.com/your-username/arecanut-price-prediction.git
 cd arecanut-price-prediction
 ```
 
-### 📆 Step 2: Install Required Libraries
+###  Step 2: Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### ▶️ Step 3: Run the Application
+### ▶ Step 3: Run the Application
 
 ```bash
 streamlit run app.py
@@ -59,7 +59,7 @@ A browser window will open showing your arecanut price prediction app.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ArecanutPricePrediction/
@@ -73,7 +73,7 @@ ArecanutPricePrediction/
 
 ---
 
-## 📁 Demo Login Credentials
+##  Demo Login Credentials
 
 These are the default credentials to access the application:
 
@@ -86,7 +86,7 @@ These are the default credentials to access the application:
 
 ---
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - Add weather data or market location to improve accuracy
 - Support for multiple crops
@@ -95,7 +95,7 @@ These are the default credentials to access the application:
 
 ---
 
-## 👩‍💻 Developed By
+##  Developed By
 
 **Preethika KS**  
 MCA Student, New Horizon College of Engineering  

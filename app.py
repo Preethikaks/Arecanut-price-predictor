@@ -6,9 +6,9 @@ import joblib
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 
-# ============================
-# 🔐 LOGIN SYSTEM
-# ============================
+
+#  LOGIN SYSTEM
+
 USERS = {
     "admin": "admin123",
     "preethika": "mca2025",
@@ -36,9 +36,9 @@ if not st.session_state["logged_in"]:
     login()
     st.stop()
 
-# ============================
-# 📁 DATABASE SETUP
-# ============================
+
+#  DATABASE SETUP
+
 DB_PATH = "arecanut.db"
 MODEL_PATH = "model.pkl"
 
@@ -90,9 +90,9 @@ def load_model():
     except:
         return train_model()
 
-# ============================
-# 🌐 STREAMLIT APP START
-# ============================
+
+#  STREAMLIT APP START
+
 st.title("🌾 Arecanut Price Predictor")
 menu = st.sidebar.radio("Navigate", ["Home", "Upload Data", "Visualize", "Predict", "About"])
 create_table()

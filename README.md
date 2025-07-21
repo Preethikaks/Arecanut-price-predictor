@@ -49,7 +49,7 @@ cd arecanut-price-prediction
 pip install -r requirements.txt
 ```
 
-### ▶ Step 3: Run the Application
+###  Step 3: Run the Application
 
 ```bash
 streamlit run app.py
@@ -99,5 +99,5 @@ These are the default credentials to access the application:
 
 **Preethika KS**  
 MCA Student, New Horizon College of Engineering  
-Passionate about Machine Learning & Real-world Applications 🚀
+Passionate about Machine Learning & Real-world Applications 
 

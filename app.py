@@ -15,7 +15,7 @@ USERS = {
 }
 
 def login():
-    st.title("🔐 Login to Arecanut Price Predictor")
+    st.title(" Login to Arecanut Price Predictor")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     login_btn = st.button("Login")
@@ -24,10 +24,10 @@ def login():
         if username in USERS and USERS[username] == password:
             st.session_state["logged_in"] = True
             st.session_state["user"] = username
-            st.success(f"Welcome, {username} 👋")
-            st.rerun()  # ✅ Updated line
+            st.success(f"Welcome, {username} ")
+            st.rerun()  #  Updated line
         else:
-            st.error("❌ Invalid username or password")
+            st.error(" Invalid username or password")
 
 if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
@@ -99,7 +99,7 @@ create_table()
 
 if menu == "Home":
     st.markdown("""
-    Welcome to the **Arecanut Price Prediction App** 👋
+    Welcome to the **Arecanut Price Prediction App** 
 
     - 📁 Upload historical price data
     - 📈 Visualize seasonal trends
@@ -112,9 +112,9 @@ elif menu == "Upload Data":
         df = pd.read_csv(uploaded)
         if 'date' in df.columns and 'modal_price' in df.columns:
             insert_data_from_csv(df)
-            st.success("✅ Data uploaded to database successfully!")
+            st.success("Data uploaded to database successfully!")
         else:
-            st.error("❌ CSV must contain 'date' and 'modal_price' columns")
+            st.error("CSV must contain 'date' and 'modal_price' columns")
 
 elif menu == "Visualize":
     df = load_data()
@@ -128,7 +128,7 @@ elif menu == "Predict":
     model = load_model()
     df = load_data()
     last_price = df['modal_price'].iloc[-1] if not df.empty else 30000
-    st.subheader("🧠 Predict Arecanut Price")
+    st.subheader(" Predict Arecanut Price")
     month = st.selectbox("Select Upcoming Month", list(range(1,13)),
                          format_func=lambda x: pd.to_datetime(str(x), format='%m').strftime('%B'))
     lag = st.number_input("Enter Last Known Modal Price", value=float(last_price))
